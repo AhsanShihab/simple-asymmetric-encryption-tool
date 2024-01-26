@@ -1,0 +1,17 @@
+{
+  "name": "secure_share",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node generate_keypair",
+    "encrypt": "node encrypt",
+    "decrypt": "node decrypt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1"
+  }
+}
